@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h2>Encryption Dashboard</h2>
+
+    <form method="POST">
+        Message: <input type="text" name="message"><br><br>
+        Shift: <input type="number" name="shift"><br><br>
+
+        <button type="submit" name="encrypt">Encrypt</button>
+        <button type="submit" name="decrypt">Decrypt</button>
+    </form>
+
+    <h3>Result: {{ result }}</h3>
+
+    <br>
+    <a href="/logout">Logout</a>
+</body>
+</html>
